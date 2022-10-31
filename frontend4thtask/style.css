@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header svg{
+    width: 14%;
+}
+
+.header a{
+    float: right;
+    margin-left: 2rem;
+    color: white;
+    font-size: 20px;
+}
+
+.header{
+    padding: 2rem 5rem;
+}
+
+.all{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.content{
+    padding: 11rem 0 200px;
+    text-align: center;
+}
+
+.content h1{
+    font-size: 36px;
+    margin-bottom: 32px;
+    color: #fff;
+}
+
+.content p{
+    font-size: 72px;
+    margin-bottom: 64px;
+    color: #fff;
+}
+
+.content a{
+    background-color: #ffc800;
+    color: #fff;
+    padding: 20px 40px;
+    font-size: 18px;
+}
+
+.services{
+    background-color: #fff;
+    text-align: center;
+    padding: 6rem 0;
+}
+
+.services .servicetitle h1{
+    margin-bottom: 16px;
+    font-size: 40px;
+}
+
+.services .servicetitle p{
+    margin-bottom: 64px;
+    font-size: 16px;
+}
+
+.portfolio{
+    background-color: #fff;
+    text-align: center;
+    padding: 6rem 0;
+}
+
+.portfolio .servicetitle h1{
+    margin-bottom: 16px;
+    font-size: 40px;
+}
+
+.portfolio .servicetitle p{
+    margin-bottom: 64px;
+    font-size: 16px;
+}
+
+
+.allcards{
+    padding: 0 5rem;
+    overflow: auto;
+}
+
+.card{
+    width: 28%;
+    float: left;
+    text-align: center;
+    padding: 0 12px;
+    
+}
+
+.cardtext h1{
+    font-size: 23.5;
+    margin: 16px 0;
+}
+
+.card img{
+    height: 60%;
+    padding: 1.5rem 0;
+}
+
+.portfolio .card img{
+    width: 100%;
+    padding: 0;
+}
+
+.cardtext p{
+    color: #6c757d;
+    margin-bottom: 16px;
+}
+
+.portfolio .card{
+    background-color: #fff;
+    width: 32%;
+    float: left;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 24px;
+}
